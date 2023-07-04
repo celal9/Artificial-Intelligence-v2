@@ -1,2 +1,3 @@
 # Artificial-Intelligence-v2
 First order predicate logic,theorem proving
+I implement a function called theorem_prover in python as a theorem prover for First Order Predicate Logic by using Resolution Refutation technique and Set of Support strategy with Breadth-First order. This function gets two lists of clauses, namely the list of base clauses and the list of clauses obtained from the negation of the theorem. The function detects whether the theorem is derivable or not. Then, it returns the result as a tuple. First element of this tuple will be “yes” or “no” according to derivability of the theorem.
